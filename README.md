@@ -7,5 +7,7 @@
 [![License](https://img.shields.io/github/license/wikimint/wm-cookie-consent)](LICENSE)
 ![Version](https://img.shields.io/github/v/release/wikimint/wm-cookie-consent)
 ![Stars](https://img.shields.io/github/stars/wikimint/wm-cookie-consent)
+[![CodeFactor](https://www.codefactor.io/repository/github/wikimint/wm-cookie-consent/badge)](https://www.codefactor.io/repository/github/wikimint/wm-cookie-consent)
+
 
 WM Cookie Consent: Seamlessly manage cookie consent on your site. Enhance privacy compliance with customizable prompts and granular controls.
