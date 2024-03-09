@@ -1,0 +1,32 @@
+{
+  "name": "wm-cookie-consent",
+  "version": "1.0.3",
+  "description": "WM Cookie Consent: Seamlessly manage cookie consent on your site. Enhance privacy compliance with customizable prompts and granular controls.",
+  "main": "wm-cookie-consent.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikimint/wm-cookie-consent.git"
+  },
+  "keywords": [
+    "Cookie consent",
+    "GDPR compliance",
+    "Privacy preferences",
+    "Cookie management",
+    "Data protection",
+    "User consent",
+    "Website cookies",
+    "Cookie banner",
+    "Consent management",
+    "Cookie policy",
+    "JavaScript cookie consent"
+  ],
+  "author": "Selvakumaran Krishnan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wikimint/wm-cookie-consent/issues"
+  },
+  "homepage": "https://developer.wikimint.com"
+}
