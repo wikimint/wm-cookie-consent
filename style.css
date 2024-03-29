@@ -1,0 +1,268 @@
+#wm_cookie{
+    font-family:system-ui ! important;
+    font-size:16px;
+}
+#wm_cookie-consent{
+    display:none;
+    z-index:999999999 ! important;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    max-width:350px;
+    margin: 6px;
+    border-radius: 6px;
+}
+#wm_cookie-consent h3{
+    display: inline-flex;
+    align-items: top;
+    margin:0px;
+    font-size:20px;
+}
+#wm_cookie-consent h3 svg{
+margin-top:6px;    
+margin-right:15px;
+}
+#wm_cookie button{
+    cursor:pointer;
+    padding:6px 15px;
+    font-size:15px;
+    font-weight:500;
+}
+#wm_cookie #wm_cookie-consent button{
+    width:32%;
+}
+#wm_cookie[data-position="top"] #wm_cookie button,
+#wm_cookie[data-position="bottom"] #wm_cookie button{
+    width:auto ! important;
+}
+#wm_cookie[data-theme="light"] button{
+    background:#f0f0f0;
+    color:#333;
+    border:1px solid #333;
+}
+#wm_cookie[data-theme="dark"] button{
+    background:#ddd;
+    color:#333;
+    border:1px solid #f0f0f0;
+}
+#wm_cookie[data-theme="light"] #wm_accept-cookies{
+    background:#333;
+    color:#f0f0f0;
+    border:1px solid #333;
+}
+#wm_cookie[data-theme="dark"] #wm_accept-cookies{
+    background:#f0f0f0;
+    color:#333;
+    border:1px solid #f0f0f0;
+}
+
+#wm_cookie[data-theme="light"] #wm_cookie-consent,
+#wm_cookie[data-theme="light"] #wm_cookie-consent a{
+    background:#f0f0f0;
+    color:#333;
+}
+#wm_cookie[data-theme="dark"] #wm_cookie-consent,
+#wm_cookie[data-theme="dark"] #wm_cookie-consent a{
+    background:#333;
+    color:#f0f0f0;
+}
+#wm_cookie[data-position="top"] #wm_cookie-consent,
+#wm_cookie[data-position="bottom"] #wm_cookie-consent{
+max-width:100% ! important;
+margin: 0px;
+    border-radius: 0px;
+}
+
+#wm_cookie[data-position="bottom-left"] #wm_cookie-consent{
+    text-align:left;
+    left: 0;
+}
+#wm_cookie[data-position="bottom-right"] #wm_cookie-consent{
+    text-align:left;
+    right: 0;
+}
+#wm_cookie[data-position="top-left"] #wm_cookie-consent{
+    text-align:left;
+    left: 0;
+}
+#wm_cookie[data-position="top-right"] #wm_cookie-consent{
+    text-align:left;
+    right: 0;
+}
+
+*[data-position^="bottom"] #wm_cookie-consent{
+    bottom: 0 ! important;
+}
+*[data-position^="top"] #wm_cookie-consent{
+    top: 0 ! important;
+}
+*[data-position^="bottom"] #wm_cookie-consent{
+    animation: wmCookieSlideUp 1s ease forwards;
+  }
+*[data-position^="top"] #wm_cookie-consent{
+      animation: wmCookieSlideDown 1s ease forwards;
+    }  
+  @keyframes wmCookieSlideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes wmCookieSlideDown {
+    from {
+      transform: translateY(-500px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+#wm_cookie-preferences-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999999999 ! important;
+}
+
+#wm_cookie-preferences-modal-content {
+    background-color: #fefefe;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width:600px;
+    max-height: calc(100vh - 100px);
+}
+#wm_cookie-preferences-modal-body{
+    max-height:calc(100vh - 200px);
+    min-height:calc(100vh - 200px);
+    overflow-y:auto;
+}
+.wm_cookie-option {
+    margin-bottom: 10px;
+    padding: 7px 7px 0;
+}
+#wm_cookie-tab2 td{
+    padding:3px 6px ! important;
+}
+
+.wm_cookie-block,
+.wm_cookie-unblock{
+    margin-top:6px;
+    background: indianred ! important;
+    color: white ! important;
+    padding: 3px 8px ! important;
+    border-radius: 3px ! important;
+    border: none ! important;
+    font-size: 14px ! important;
+}
+.wm_cookie-unblock{
+    background: forestgreen ! important;
+}
+.wm_cookie-tab-button{
+    border-bottom: none ! important;
+    border-color: #ddd ! important;
+    margin: 0px ! important;
+}
+.wm_cookie-tab-button.active{
+    background:#fff ! important;
+    color:#333 ! important;
+}
+#wm_save-preferences{
+    background: forestgreen ! important;
+    border-color:forestgreen ! important;
+    color:#fff ! important;
+}
+#wm_close-preferences{
+    background: #333 ! important;
+    border-color:#333 ! important;
+    color:#fff ! important;
+
+}
+.wm_cookie-value,
+.wm_cookie-name{
+    line-break: anywhere;
+    line-break: anywhere;
+    padding: 3px 14px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    line-height: 1.6em;
+    display: block;
+}
+.wm_cookie-name{
+    background: #f2f2f2 ! important;
+    border-bottom:none ! important;
+}
+.wm_brand{
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    font-family: system-ui ! important;
+    float:right;
+    text-align:right;
+}
+.wm_brand button{
+    cursor: pointer;
+    padding: 6px 5px ! important;
+    font-size: 25px ! important;
+    font-weight: 600 ! important;
+    border: none ! important;
+    border-radius: 6px;
+    background: transparent ! important;
+    color: #999 ! important;
+    text-align:right;
+}
+/* Style for tabs */
+.wm_cookie-tab {
+  display: none;
+}
+.wm_cookie-tab.active {
+  display: block;
+}
+
+/* Style for accordion */
+.wm_cookie-accordion {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.wm_cookie-accordion-header {
+  background-color: #e9e9e9;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+}
+.wm_cookie-accordion-body {
+  display: none;
+  padding: 10px;
+  background:#fff;
+}
+.wm_cookie-accordion-body.active {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+.wm_brand{
+    float: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+#wm_cookie-preferences-modal-body {
+    max-height: calc(100vh - 250px);
+    min-height: calc(100vh - 250px);
+}
+  }
