@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GDPR Cookie Consent</title>
+
+</head>
+<body>
+
+
+<script src="wm-cookie-consent.js"
+    data-consent-title="We value your privacy"
+    data-consent-description="This website uses cookies to ensure you get the best experience on our website."
+    data-policy-link = "/privacy-policy"
+    data-policy-title = "Privacy Policy"
+    data-theme="light"
+    data-position="bottom-left"
+    data-cookie-manage="true">
+</script>
+
+<button onclick="placeCookie()">Cookies</button>
+<script>
+function placeCookie(){
+    wm_setCookie("sample1","value1",365);
+    wm_setCookie("sample2","value1",365);
+    wm_setCookie("sample3","value1",365);
+    wm_setCookie("sample4","value1",365);
+    wm_setCookie("sample5","value1",365);
+    wm_setCookie("sample6","value1",365);
+
+}
+</script>
+</body>
+</html>

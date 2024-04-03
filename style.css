@@ -1,6 +1,11 @@
 #wm_cookie{
     font-family:system-ui ! important;
-    font-size:16px;
+    font-size:16px ! important;
+}
+#wm_cookie, #wm_cookie form,#wm_cookie textarea,#wm_cookie input,#wm_cookie select,#wm_cookie p,#wm_cookie div,#wm_cookie span {
+    -webkit-appearance: auto ! important;
+    -moz-appearance: auto ! important;
+    appearance: auto ! important;
 }
 #wm_cookie-consent{
     display:none;
@@ -136,30 +141,33 @@ margin: 0px;
 }
 
 #wm_cookie-preferences-modal-content {
-    background-color: #fefefe;
+    background-color: #fefefe ! important;
+    color: #333 ! important;
     margin: 30px auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width:600px;
-    max-height: calc(100vh - 100px);
+    max-width: 600px;
+    max-height: calc(100vh - 60px);
 }
 #wm_cookie-preferences-modal-body{
-    max-height:calc(100vh - 200px);
-    min-height:calc(100vh - 200px);
-    overflow-y:auto;
+    max-height:calc(100vh - 210px) ! important;
+    min-height:calc(100vh - 210px) ! important;
+    overflow-y:auto ! important;
 }
 .wm_cookie-option {
-    margin-bottom: 10px;
-    padding: 7px 7px 0;
+    margin-bottom: 10px ! important;
+    padding: 7px 7px 0 ! important;
 }
 #wm_cookie-tab2 td{
     padding:3px 6px ! important;
 }
 
 .wm_cookie-block,
-.wm_cookie-unblock{
-    margin-top:6px;
+.wm_cookie-unblock,
+.wm_cookie-must{
+    word-break: keep-all ! important;
+    margin-top:6px ! important;
     background: indianred ! important;
     color: white ! important;
     padding: 3px 8px ! important;
@@ -169,6 +177,10 @@ margin: 0px;
 }
 .wm_cookie-unblock{
     background: forestgreen ! important;
+}
+.wm_cookie-must{
+    background: #ddd ! important;
+    color:#333 ! important;
 }
 .wm_cookie-tab-button{
     border-bottom: none ! important;
