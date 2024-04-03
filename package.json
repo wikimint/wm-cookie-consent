@@ -1,6 +1,6 @@
 {
   "name": "wm-cookie-consent",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "WM Cookie Consent: Seamlessly manage cookie consent on your site. Enhance privacy compliance with customizable prompts and granular controls.",
   "main": "wm-cookie-consent.js",
   "scripts": {
