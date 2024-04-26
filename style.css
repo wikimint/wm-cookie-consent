@@ -1,5 +1,5 @@
 #wm_cookie{
-    font-family:system-ui ! important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' ! important;
     font-size:16px ! important;
 }
 #wm_cookie, #wm_cookie form,#wm_cookie textarea,#wm_cookie input,#wm_cookie select,#wm_cookie p,#wm_cookie div,#wm_cookie span {
@@ -9,7 +9,7 @@
 }
 #wm_cookie-consent{
     display:none;
-    z-index:999999999 ! important;
+    z-index:9999999999999 ! important;
     position: fixed;
     width: 100%;
     padding: 20px;
@@ -146,13 +146,13 @@ margin: 0px;
     margin: 30px auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: calc(100% - 80px);
     max-width: 600px;
     max-height: calc(100vh - 60px);
 }
 #wm_cookie-preferences-modal-body{
-    max-height:calc(100vh - 210px) ! important;
-    min-height:calc(100vh - 210px) ! important;
+    max-height:calc(100vh - 210px);
+    min-height:calc(100vh - 210px);
     overflow-y:auto ! important;
 }
 .wm_cookie-option {
@@ -228,12 +228,12 @@ margin: 0px;
     cursor: pointer;
     padding: 6px 5px ! important;
     font-size: 25px ! important;
-    font-weight: 600 ! important;
     border: none ! important;
     border-radius: 6px;
     background: transparent ! important;
-    color: #999 ! important;
-    text-align:right;
+    color: #21759b ! important;
+    text-align: right;
+    text-shadow: 1px 0px 3px #21759b55;
 }
 /* Style for tabs */
 .wm_cookie-tab {
@@ -264,8 +264,16 @@ margin: 0px;
 .wm_cookie-accordion-body.active {
   display: block;
 }
-
+.buttons-brand{
+    padding:20px 0 0;width:100%;background:#fff;
+}
 @media only screen and (max-width: 600px) {
+.buttons-brand{
+    padding: 20px 0 0;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}    
 .wm_brand{
     float: none;
     text-align: center;
@@ -273,8 +281,14 @@ margin: 0px;
     width: 100%;
     margin-top: 15px;
 }
+#wm_cookie-preferences-modal-content{
+    margin:0px;
+    width:calc(100% - 40px);
+    height:100%;
+    max-height:100%;
+}
 #wm_cookie-preferences-modal-body {
-    max-height: calc(100vh - 250px);
-    min-height: calc(100vh - 250px);
+    max-height: calc(100vh - 190px);
+    min-height: calc(100vh - 190px);
 }
   }
