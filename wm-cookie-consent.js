@@ -1,1 +1,103 @@
-'use strict';var _0x3cc51c=_0x2261;(function(_0x2c600b,_0x322238){var _0x164ab3=_0x2261,_0x418d76=_0x2c600b();while(!![]){try{var _0x378ad4=-parseInt(_0x164ab3(0x134))/0x1*(parseInt(_0x164ab3(0x13c))/0x2)+-parseInt(_0x164ab3(0x143))/0x3+-parseInt(_0x164ab3(0x12e))/0x4*(parseInt(_0x164ab3(0x124))/0x5)+-parseInt(_0x164ab3(0x13b))/0x6+-parseInt(_0x164ab3(0x12b))/0x7+-parseInt(_0x164ab3(0x12c))/0x8*(-parseInt(_0x164ab3(0x122))/0x9)+parseInt(_0x164ab3(0x125))/0xa;if(_0x378ad4===_0x322238)break;else _0x418d76['push'](_0x418d76['shift']());}catch(_0x4d18d2){_0x418d76['push'](_0x418d76['shift']());}}}(_0x5569,0x51dad));function _0x5569(){var _0x1b4467=['true','data-cookie-manage','type','href','1879737IGKMXF','script','overview.html','777321xhMAjH','style.css','49085dUgsUT','25059880kXyzfy','error','innerHTML','</span>\x0a<style>\x20\x20\x20\x20\x0a\x0a#wm_cookie-manage{\x0a\x20\x20padding:\x203px\x20!\x20important;\x0a\x20\x20position:\x20fixed;\x0a\x20\x20z-index:\x20999999999999\x20!\x20important;\x0a\x20\x20background:\x20#fff;\x0a\x20\x20box-shadow:\x200\x200\x206px\x20#999;\x0a\x20\x20cursor:\x20pointer;\x0a\x20\x20border-radius:\x20100%;\x0a\x20\x20width:\x2035px;\x0a\x20\x20height:\x2035px;\x0a\x20\x20bottom:\x2012px;\x0a\x20\x20left:\x2012px;\x0a\x20\x20color:\x20#555;\x0a\x20\x20display:\x20flex;\x0a\x20\x20align-items:\x20center;\x0a\x20\x20text-align:\x20center;\x0a}\x0a#wm_cookie-manage\x20svg{\x0a\x20\x20width:30px\x20!\x20important;\x0a\x20\x20height:30px\x20!\x20important;\x0a\x20\x20margin:auto;\x0a}\x0a\x20\x20*[data-position^=\x22bottom\x22]\x20#wm_cookie-manage{\x0a\x20\x20\x20\x20bottom:\x20-23px\x20!\x20important;\x0a\x20\x20\x20\x20transition:\x20bottom\x200.3s\x20ease;\x0a\x20\x20\x20\x20border-radius:3px\x203px\x200\x200;\x0a}\x0a*[data-position^=\x22top\x22]\x20#wm_cookie-manage{\x0a\x20\x20\x20\x20top:\x20-23px\x20!\x20important;\x0a\x20\x20\x20\x20transition:\x20top\x200.3s\x20ease;\x0a\x20\x20\x20\x20border-radius:\x200\x200\x203px\x203px;\x0a}\x0a*[data-position^=\x22bottom\x22]\x20#wm_cookie-manage:hover{\x0a\x20\x20\x20\x20bottom:\x200px\x20!\x20important;\x0a}\x0a*[data-position^=\x22top\x22]\x20#wm_cookie-manage:hover{\x0a\x20\x20\x20\x20top:\x200px\x20!\x20important;\x0a}\x0a</style>\x0a','substring','appendChild','4680907mAnFJa','24EXyjRZ','replace','156ssBgBC','then','getAttribute','body','<svg\x20version=\x221.1\x22\x20width=\x2230px\x22\x20height=\x2230px\x22\x20id=\x22Layer_1\x22\x20fill=\x22currentColor\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20xmlns:xlink=\x22http://www.w3.org/1999/xlink\x22\x20x=\x220px\x22\x20y=\x220px\x22\x20viewBox=\x220\x200\x20120.23\x20122.88\x22\x20style=\x22enable-background:new\x200\x200\x20120.23\x20122.88\x22\x20xml:space=\x22preserve\x22><style\x20type=\x22text/css\x22>.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path\x20class=\x22st0\x22\x20d=\x22M98.18,0c3.3,0,5.98,2.68,5.98,5.98c0,3.3-2.68,5.98-5.98,5.98c-3.3,0-5.98-2.68-5.98-5.98\x20C92.21,2.68,94.88,0,98.18,0L98.18,0z\x20M99.78,52.08c5.16,7.7,11.69,10.06,20.17,4.85c0.28,2.9,0.35,5.86,0.2,8.86\x20c-1.67,33.16-29.9,58.69-63.06,57.02C23.94,121.13-1.59,92.9,0.08,59.75C1.74,26.59,30.95,0.78,64.1,2.45\x20c-2.94,9.2-0.45,17.37,7.03,20.15C64.35,44.38,79.49,58.63,99.78,52.08L99.78,52.08z\x20M30.03,47.79c4.97,0,8.99,4.03,8.99,8.99\x20s-4.03,8.99-8.99,8.99c-4.97,0-8.99-4.03-8.99-8.99S25.07,47.79,30.03,47.79L30.03,47.79z\x20M58.35,59.25c2.86,0,5.18,2.32,5.18,5.18\x20c0,2.86-2.32,5.18-5.18,5.18c-2.86,0-5.18-2.32-5.18-5.18C53.16,61.57,55.48,59.25,58.35,59.25L58.35,59.25z\x20M35.87,80.59\x20c3.49,0,6.32,2.83,6.32,6.32c0,3.49-2.83,6.32-6.32,6.32c-3.49,0-6.32-2.83-6.32-6.32C29.55,83.41,32.38,80.59,35.87,80.59\x20L35.87,80.59z\x20M49.49,32.23c2.74,0,4.95,2.22,4.95,4.95c0,2.74-2.22,4.95-4.95,4.95c-2.74,0-4.95-2.22-4.95-4.95\x20C44.54,34.45,46.76,32.23,49.49,32.23L49.49,32.23z\x20M76.39,82.8c4.59,0,8.3,3.72,8.3,8.3c0,4.59-3.72,8.3-8.3,8.3\x20c-4.59,0-8.3-3.72-8.3-8.3C68.09,86.52,71.81,82.8,76.39,82.8L76.39,82.8z\x20M93.87,23.1c3.08,0,5.58,2.5,5.58,5.58\x20c0,3.08-2.5,5.58-5.58,5.58s-5.58-2.5-5.58-5.58C88.29,25.6,90.79,23.1,93.87,23.1L93.87,23.1z\x22/></g></svg>','stylesheet','238373OvOZHP','There\x20was\x20a\x20problem\x20with\x20your\x20fetch\x20operation:','link','head','createElement','length','SCRIPT','3079812TVnoDw','2mxSIqt','lastIndexOf','getElementsByTagName'];_0x5569=function(){return _0x1b4467;};return _0x5569();}var wm_info_src,wm_cookie_overview=null,wm_cookie_scripts=document[_0x3cc51c(0x13e)](_0x3cc51c(0x120)),wm_cookie_current_script=wm_cookie_scripts[wm_cookie_scripts[_0x3cc51c(0x139)]-0x1],wm_cookie_icon=_0x3cc51c(0x132);if(wm_cookie_current_script['getAttribute'](_0x3cc51c(0x140))&&wm_cookie_current_script[_0x3cc51c(0x130)]('data-cookie-manage')==_0x3cc51c(0x13f)){var wm_cookie_manage=document[_0x3cc51c(0x138)]('DIV');wm_cookie_manage['innerHTML']='\x0a<span\x20id=\x22wm_cookie-manage\x22>'+wm_cookie_icon+_0x3cc51c(0x128),document[_0x3cc51c(0x131)][_0x3cc51c(0x12a)](wm_cookie_manage);}function _0x2261(_0xd309e3,_0x4c7615){var _0x556901=_0x5569();return _0x2261=function(_0x2261bf,_0x205d98){_0x2261bf=_0x2261bf-0x120;var _0x6dd130=_0x556901[_0x2261bf];return _0x6dd130;},_0x2261(_0xd309e3,_0x4c7615);}function wm_cookie_source(){var _0x4cf59a=_0x3cc51c,_0x4065d1=wm_cookie_current_script['src'],_0x1b8b2d=_0x4065d1[_0x4cf59a(0x129)](_0x4065d1[_0x4cf59a(0x13d)]('/')+0x1),_0x171e0a=_0x4cf59a(0x123),_0x569c7c='main.js',_0x54ce04=_0x4cf59a(0x121),_0x511cb0=_0x4065d1[_0x4cf59a(0x12d)](_0x1b8b2d,_0x171e0a),_0x1281ec=_0x4065d1['replace'](_0x1b8b2d,_0x569c7c);wm_info_src=_0x4065d1['replace'](_0x1b8b2d,_0x54ce04);var _0x3bf482=document['createElement'](_0x4cf59a(0x136));_0x3bf482['rel']=_0x4cf59a(0x133),_0x3bf482[_0x4cf59a(0x142)]=_0x511cb0,document[_0x4cf59a(0x137)][_0x4cf59a(0x12a)](_0x3bf482),fetch(_0x1281ec)['then'](_0x4ca8b6=>{if(!_0x4ca8b6['ok'])throw new Error('Network\x20response\x20was\x20not\x20ok');return _0x4ca8b6['text']();})[_0x4cf59a(0x12f)](_0x332602=>{var _0x1e6cf2=_0x4cf59a,_0x101797=document[_0x1e6cf2(0x138)](_0x1e6cf2(0x13a));_0x101797[_0x1e6cf2(0x141)]='text/javascript',_0x101797[_0x1e6cf2(0x127)]=_0x332602,document[_0x1e6cf2(0x131)][_0x1e6cf2(0x12a)](_0x101797);})['catch'](_0x20d9f6=>{var _0x2070f2=_0x4cf59a;console[_0x2070f2(0x126)](_0x2070f2(0x135),_0x20d9f6);});}wm_cookie_source();
+"use strict";
+var wm_info_src;
+var wm_cookie_overview = null;
+var wm_cookie_scripts = document.getElementsByTagName('script');
+var wm_cookie_current_script = wm_cookie_scripts[wm_cookie_scripts.length - 1];
+var wm_cookie_icon = '<svg version="1.1" width="30px" height="30px" id="Layer_1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120.23 122.88" style="enable-background:new 0 0 120.23 122.88" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M98.18,0c3.3,0,5.98,2.68,5.98,5.98c0,3.3-2.68,5.98-5.98,5.98c-3.3,0-5.98-2.68-5.98-5.98 C92.21,2.68,94.88,0,98.18,0L98.18,0z M99.78,52.08c5.16,7.7,11.69,10.06,20.17,4.85c0.28,2.9,0.35,5.86,0.2,8.86 c-1.67,33.16-29.9,58.69-63.06,57.02C23.94,121.13-1.59,92.9,0.08,59.75C1.74,26.59,30.95,0.78,64.1,2.45 c-2.94,9.2-0.45,17.37,7.03,20.15C64.35,44.38,79.49,58.63,99.78,52.08L99.78,52.08z M30.03,47.79c4.97,0,8.99,4.03,8.99,8.99 s-4.03,8.99-8.99,8.99c-4.97,0-8.99-4.03-8.99-8.99S25.07,47.79,30.03,47.79L30.03,47.79z M58.35,59.25c2.86,0,5.18,2.32,5.18,5.18 c0,2.86-2.32,5.18-5.18,5.18c-2.86,0-5.18-2.32-5.18-5.18C53.16,61.57,55.48,59.25,58.35,59.25L58.35,59.25z M35.87,80.59 c3.49,0,6.32,2.83,6.32,6.32c0,3.49-2.83,6.32-6.32,6.32c-3.49,0-6.32-2.83-6.32-6.32C29.55,83.41,32.38,80.59,35.87,80.59 L35.87,80.59z M49.49,32.23c2.74,0,4.95,2.22,4.95,4.95c0,2.74-2.22,4.95-4.95,4.95c-2.74,0-4.95-2.22-4.95-4.95 C44.54,34.45,46.76,32.23,49.49,32.23L49.49,32.23z M76.39,82.8c4.59,0,8.3,3.72,8.3,8.3c0,4.59-3.72,8.3-8.3,8.3 c-4.59,0-8.3-3.72-8.3-8.3C68.09,86.52,71.81,82.8,76.39,82.8L76.39,82.8z M93.87,23.1c3.08,0,5.58,2.5,5.58,5.58 c0,3.08-2.5,5.58-5.58,5.58s-5.58-2.5-5.58-5.58C88.29,25.6,90.79,23.1,93.87,23.1L93.87,23.1z"/></g></svg>';
+
+if(wm_cookie_current_script.getAttribute("data-cookie-manage") && wm_cookie_current_script.getAttribute("data-cookie-manage") == "true"){
+    var  wm_cookie_manage = document.createElement("DIV");
+    wm_cookie_manage.innerHTML = `
+<span id="wm_cookie-manage">`+ wm_cookie_icon +`</span>
+<style>    
+
+#wm_cookie-manage{
+  padding: 3px ! important;
+  position: fixed;
+  z-index: 999999999999 ! important;
+  background: #fff;
+  box-shadow: 0 0 6px #999;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  bottom: 12px;
+  left: 12px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#wm_cookie-manage svg{
+  width:30px ! important;
+  height:30px ! important;
+  margin:auto;
+}
+  *[data-position^="bottom"] #wm_cookie-manage{
+    bottom: -23px ! important;
+    transition: bottom 0.3s ease;
+    border-radius:3px 3px 0 0;
+}
+*[data-position^="top"] #wm_cookie-manage{
+    top: -23px ! important;
+    transition: top 0.3s ease;
+    border-radius: 0 0 3px 3px;
+}
+*[data-position^="bottom"] #wm_cookie-manage:hover{
+    bottom: 0px ! important;
+}
+*[data-position^="top"] #wm_cookie-manage:hover{
+    top: 0px ! important;
+}
+</style>
+`;
+document.body.appendChild(wm_cookie_manage);
+}
+
+
+function wm_cookie_source(){
+    var current_src = wm_cookie_current_script.src;
+    // Extract the file name
+    var current_file = current_src.substring(current_src.lastIndexOf('/') + 1);
+    
+    // Assuming the new file name is "newFileName.js"
+    var style_file = "style.css";
+    var script_file = "main.js";
+    var info_file = "overview.html";
+    // Replace the file name in the script source
+    var style_src = current_src.replace(current_file, style_file);
+    var script_src = current_src.replace(current_file, script_file);
+    wm_info_src = current_src.replace(current_file, info_file);
+    
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = style_src;
+    document.head.appendChild(link);
+    
+
+
+// Fetch the content of the JavaScript file
+fetch(script_src)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.text();
+  })
+  .then(jsContent => {
+
+    var script = document.createElement("SCRIPT");
+    script.type = "text/javascript";
+    script.innerHTML = jsContent;
+    document.body.appendChild(script);    // You can evaluate the content, or parse it, etc.
+
+  })
+  .catch(error => {
+    console.error('There was a problem with your fetch operation:', error);
+  });
+
+
+    }
+
+wm_cookie_source();
+
