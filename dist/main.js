@@ -74,11 +74,11 @@ var pref = {};
 pref["essential"] = "Essential cookies are necessary for the website to function properly.";
 pref["performance"] = "Performance cookies are used to analyze how visitors use a website.";
 pref["functionality"] = "Functionality cookies enable a website to remember information and provide enhanced features.";
-pref["advertising"] = "Advertising cookies are used to deliver advertisements relevant to the user's interests.";
-pref["third-party"] = "Third-party cookies are placed by domains other than the one the user is visiting.";
-pref["analytical"] = "Analytical cookies help website owners understand how visitors interact with the website.";
+pref["ads"] = "Advertising cookies are used to deliver advertisements relevant to the user's interests.";
+pref["thirdparty"] = "Third-party cookies are placed by domains other than the one the user is visiting.";
+pref["analytics"] = "Analytical cookies help website owners understand how visitors interact with the website.";
 pref["session"] = "Session cookies are temporary cookies that are erased when the user closes the browser.";
-pref["persistant"] = "Persistent cookies are stored on a user's device between browser sessions.";
+pref["persistent"] = "Persistent cookies are stored on a user's device between browser sessions.";
 pref["other"] = "All other cookies if any not listed in the above categories come under other cookies.";
 for (var key in pref) {
   if (pref.hasOwnProperty(key)) {
@@ -127,9 +127,9 @@ function wm_setConsent(consent) {
     essential: value,
     performance: value,
     functionality: value,
-    advertising: value,
-    thirdParty: value,
-    analytical: value,
+    ads: value,
+    thirdparty: value,
+    analytics: value,
     session: value,
     persistent: value,
     other: value
@@ -198,13 +198,12 @@ document.getElementById("wm_save-preferences").addEventListener("click", functio
   wm_setCookie("cookie_consent", preference, 365);
   wm_manageCookies();
   document.getElementById("wm_cookie-consent").style.display = "none";
+  wm_loadAllowedScripts();
 });
 document.getElementById("wm_close-preferences").addEventListener("click", function() {
   document.getElementById("wm_cookie-preferences-modal").style.display = "none";
   wm_manageCookies();
-});
-document.getElementById("wm_cookie-manage").addEventListener("click", function() {
-  document.getElementById("wm_cookie-consent").style.display = "block";
+  wm_loadAllowedScripts();
 });
 function wm_start_cookies() {
   var cookies = document.cookie.split(";").reduce((cookiesObj, cookie2) => {
@@ -237,6 +236,7 @@ function wm_start_cookies() {
       });
     }
   }
+  wm_loadAllowedScripts();
 }
 wm_start_cookies();
 function wm_manageCookies() {
@@ -266,6 +266,7 @@ function wm_manageCookies() {
   wm_start_cookies();
   wm_block_init();
   wm_unblock_init();
+  wm_loadAllowedScripts();
 }
 wm_manageCookies();
 function wm_block_init() {
@@ -284,6 +285,7 @@ function wm_block_init() {
         localStorage.setItem("wm_cookie_blocked", JSON.stringify(blockCookies));
         wm_manageCookies();
       }
+      wm_loadAllowedScripts();
     });
   });
 }
@@ -303,6 +305,7 @@ function wm_unblock_init() {
           wm_manageCookies();
         }
       }
+      wm_loadAllowedScripts();
     });
   });
 }
