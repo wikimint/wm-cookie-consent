@@ -1,32 +1,41 @@
 {
   "name": "wm-cookie-consent",
-  "version": "1.0.6",
-  "description": "WM Cookie Consent: Seamlessly manage cookie consent on your site. Enhance privacy compliance with customizable prompts and granular controls.",
-  "main": "wm-cookie-consent.js",
+  "version": "1.0.7",
+  "description": "WM Cookie Consent: Lightweight open-source JavaScript library for GDPR compliant cookie consent and script blocking.",
+  "main": "dist/wm-cookie-consent.js",
+  "module": "dist/wm-cookie-consent.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "npm run test"
+    "build": "node esbuild.config.js",
+    "dev": "node esbuild.config.js",
+    "test": "echo \"No tests yet\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wikimint/wm-cookie-consent.git"
+    "url": "https://github.com/wikimint/wm-cookie-consent.git"
   },
   "keywords": [
-    "Cookie consent",
-    "GDPR compliance",
-    "Privacy preferences",
-    "Cookie management",
-    "Data protection",
-    "User consent",
-    "Website cookies",
-    "Cookie banner",
-    "Consent management",
-    "Cookie policy",
-    "JavaScript cookie consent"
+    "cookie-consent",
+    "gdpr",
+    "cookie-banner",
+    "cookie-management",
+    "consent-management",
+    "privacy",
+    "gdpr-compliance",
+    "javascript-cookie",
+    "cookie-policy",
+    "script-blocking"
   ],
   "author": "Selvakumaran Krishnan",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/wikimint/wm-cookie-consent/issues"
   },
-  "homepage": "https://developer.wikimint.com"
+  "homepage": "https://github.com/wikimint/wm-cookie-consent",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  }
 }
