@@ -20,10 +20,10 @@ WM Cookie Consent is a lightweight and customizable JavaScript library designed 
 
 ## Screenshots
 
-![Screenshot 1](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/cookie-consent-gdpr-javascript-library.jpg)
-![Screenshot 2](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/cookie-consent-gdpr-preferences-settings-javascript-cdn-library.jpg)
-![Screenshot 3](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/about-cookie-consent-gdpr-overview-javascript-cdn-library.jpg)
-![Screenshot 3](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/cookie-consent-gdpr-popup.jpg)
+![Screenshot 1](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/cookie-consent-gdpr-javascript.jpg)
+![Screenshot 2](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/cookie-consent-gdpr-preferences-settings-javascript-cdn.jpg)
+![Screenshot 3](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/about-cookie-consent-gdpr-overview-javascript-cdn.jpg)
+![Screenshot 3](https://raw.githubusercontent.com/wikimint/wm-cookie-consent/main/screenshots/cookie-consent-gdpr.jpg)
 
 ## Key Features:
 

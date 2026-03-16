@@ -1,7 +1,8 @@
 # build output
 src/
 src
-
+dev/
+dev
 # generated types
 .astro/
 

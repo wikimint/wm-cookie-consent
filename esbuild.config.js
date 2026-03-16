@@ -51,7 +51,7 @@ async function build() {
     await esbuild.build({
       ...commonOptions,
       minify: true,
-      entryPoints: ["src/wm-cookie-consent.js"],
+      entryPoints: ["dev/wm-cookie-consent.js"],
       outfile: "dist/wm-cookie-consent.min.js"
     });
 
@@ -61,7 +61,7 @@ async function build() {
       ...commonOptions,
       minify: true,
       keepNames: false,
-      entryPoints: ["src/main.js"],
+      entryPoints: ["dev/main.js"],
       outfile: mainPath
     });
     obfuscateFile(mainPath);
@@ -70,7 +70,7 @@ async function build() {
     await esbuild.build({
       ...commonOptions,
       minify: true,
-      entryPoints: ["src/style.css"],
+      entryPoints: ["dev/style.css"],
       outfile: "dist/style.min.css"
     });
 
