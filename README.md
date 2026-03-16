@@ -1,11 +1,10 @@
 # WM Cookie Consent
 
-Lightweight open-source JavaScript library for **GDPR compliant cookie consent and script blocking**.
+Lightweight proprietary JavaScript library for **GDPR compliant cookie consent and script blocking**.
 
-![License](https://img.shields.io/github/license/wikimint/wm-cookie-consent)
+![License](https://img.shields.io/badge/license-Proprietary-red)
 ![Stars](https://img.shields.io/github/stars/wikimint/wm-cookie-consent)
-![Issues](https://img.shields.io/github/issues/wikimint/wm-cookie-consent)
-![CDN](https://img.shields.io/jsdelivr/gh/hm/wikimint/wm-cookie-consent)
+![CDN](https://img.shields.io/jsdelivr/gh/hw/wikimint/wm-cookie-consent)
 
 A lightweight **pure JavaScript cookie consent banner with script blocking support**.
 
@@ -46,4 +45,4 @@ WM Cookie Consent is a lightweight and customizable JavaScript library designed 
 
 ## License
 
-WM Cookie Consent is licensed under the [GNU General Public License v3.0](LICENSE).
+[Proprietary - All Rights Reserved](LICENSE) by Wikimint.

@@ -29,13 +29,16 @@
     "script-blocking"
   ],
   "author": "Selvakumaran Krishnan",
-  "license": "GPL-3.0",
+  "license": "Propreitary",
   "bugs": {
     "url": "https://github.com/wikimint/wm-cookie-consent/issues"
   },
   "homepage": "https://github.com/wikimint/wm-cookie-consent",
   "type": "commonjs",
   "devDependencies": {
-    "esbuild": "^0.27.4"
+    "esbuild": "^0.27.4",
+    "google-closure-compiler": "^20260311.0.0",
+    "google-closure-compiler-windows": "^20260311.0.0",
+    "javascript-obfuscator": "^5.3.0"
   }
 }

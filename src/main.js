@@ -38,7 +38,7 @@ const wm_cookie_element = document.createElement("DIV");
 wm_cookie_element.innerHTML= `
 <div id="wm_cookie" data-theme="`+ wm_cookie_theme +`" data-position="`+ wm_cookie_position +`">
    <div id="wm_cookie-consent">
-      <h3>` + wm_cookie_icon + wm_cookie_title +`</h3>
+      <h3><span style="margin-right:6px;">` + wm_cookie_icon + `</span>` + wm_cookie_title +`</h3>
       <p>`+ wm_cookie_message +  wm_cookie_read_more  +`</p>
       <button id="wm_cookie-preferences">Settings</button>
       <button id="wm_deny-cookies">Deny</button>
@@ -85,7 +85,7 @@ var pref = {};
     pref["analytics"]= "Analytical cookies help website owners understand how visitors interact with the website.";
     pref["session"]= "Session cookies are temporary cookies that are erased when the user closes the browser.";
     pref["persistent"]= "Persistent cookies are stored on a user's device between browser sessions.";
-    pref["other"]= "All other cookies if any not listed in the above categories come under other cookies.";
+    pref["others"]= "All other cookies if any not listed in the above categories come under other cookies.";
 
 for (var key in pref) {
     if (pref.hasOwnProperty(key)) {
@@ -149,7 +149,7 @@ function wm_setConsent(consent) {
             analytics: value,
             session: value,
             persistent: value,
-            other: value
+            others: value
         };
     
         // Set preferred cookies

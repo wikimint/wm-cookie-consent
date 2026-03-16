@@ -1,65 +1,72 @@
 const esbuild = require("esbuild");
+const JavaScriptObfuscator = require('javascript-obfuscator');
+const fs = require('fs');
+
+// Replace these details with your official brand info
+const copyrightBanner = `/**
+ * @license
+ * Wikimint Proprietary Library
+ * Copyright (c) 2026 Wikimint. All Rights Reserved.
+ * Unauthorized copying, distribution, or reverse engineering is strictly prohibited.
+ */`;
 
 const commonOptions = {
   bundle: false,
   target: "es2017",
   charset: "utf8",
-  legalComments: "none"
-};
-
-const minifyOptions = {
-  ...commonOptions,
-  minify: true,
-  minifyWhitespace: true,
-  minifyIdentifiers: true,
-  minifySyntax: true,
-  drop: ["console", "debugger"],
-  define: {
-    "process.env.NODE_ENV": '"production"'
+  legalComments: "inline", // This helps preserve specific license comments
+  banner: {
+    js: copyrightBanner,
+    css: copyrightBanner,
   }
 };
 
+/**
+ * Helper to obfuscate a file after esbuild finishes
+ */
+function obfuscateFile(filePath) {
+  const code = fs.readFileSync(filePath, 'utf8');
+  const result = JavaScriptObfuscator.obfuscate(code, {
+    compact: true,
+    controlFlowFlattening: true,
+    controlFlowFlatteningThreshold: 1,
+    deadCodeInjection: true,
+    deadCodeInjectionThreshold: 0.4,
+    stringArray: true,
+    stringArrayEncoding: ['rc4'],
+    stringArrayThreshold: 1,
+    identifierNamesGenerator: 'hexadecimal'
+  });
+  
+  // Re-attach the banner after obfuscation because the obfuscator might strip it
+  const finalCode = result.getObfuscatedCode();
+  fs.writeFileSync(filePath, finalCode);
+}
+
 async function build() {
   try {
+    console.log("Starting build with Copyright protection...");
 
-    /* wm-cookie-consent JS */
-
+    /* 1. wm-cookie-consent.js -> MINIFY ONLY */
     await esbuild.build({
       ...commonOptions,
-      entryPoints: ["src/wm-cookie-consent.js"],
-      outfile: "dist/wm-cookie-consent.js"
-    });
-
-    await esbuild.build({
-      ...minifyOptions,
+      minify: true,
       entryPoints: ["src/wm-cookie-consent.js"],
       outfile: "dist/wm-cookie-consent.min.js"
     });
 
-
-    /* main JS */
-
+    /* 2. main.js -> MINIFY + OBFUSCATE */
+    const mainPath = "dist/main.min.js";
     await esbuild.build({
       ...commonOptions,
+      minify: true,
+      keepNames: false,
       entryPoints: ["src/main.js"],
-      outfile: "dist/main.js"
+      outfile: mainPath
     });
+    obfuscateFile(mainPath);
 
-    await esbuild.build({
-      ...minifyOptions,
-      entryPoints: ["src/main.js"],
-      outfile: "dist/main.min.js"
-    });
-
-
-    /* CSS */
-
-    await esbuild.build({
-      ...commonOptions,
-      entryPoints: ["src/style.css"],
-      outfile: "dist/style.css"
-    });
-
+    /* 3. style.css -> MINIFY ONLY */
     await esbuild.build({
       ...commonOptions,
       minify: true,
@@ -67,7 +74,7 @@ async function build() {
       outfile: "dist/style.min.css"
     });
 
-    console.log("Build completed successfully");
+    console.log("Build complete. Copyright banners injected.");
 
   } catch (err) {
     console.error("Build failed:", err);
