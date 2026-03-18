@@ -47,6 +47,34 @@ async function build() {
   try {
     console.log("Starting build with Copyright protection...");
 
+
+    // Create a temporary entry file to import both CSS files
+    // This ensures correct ordering and bundling
+    const tempStyleEntry = 'dev/temp-bundle.css';
+    fs.writeFileSync(tempStyleEntry, `
+      @import "./style.css";
+      @import "./style-manage.css";
+    `);
+
+    await esbuild.build({
+      entryPoints: [tempStyleEntry],
+      bundle: true,
+      minify: true,
+      outfile: "dist/style-complete.min.css",
+      banner: {
+        css: copyrightBanner,
+      },
+      loader: { '.css': 'css' },
+    });
+
+    // Cleanup the temporary file
+    if (fs.existsSync(tempStyleEntry)) {
+        fs.unlinkSync(tempStyleEntry);
+    }
+
+    console.log("✅ style-complete.css generated successfully.");
+
+
     /* 1. wm-cookie-consent.js -> MINIFY ONLY */
     await esbuild.build({
       ...commonOptions,
@@ -73,7 +101,12 @@ async function build() {
       entryPoints: ["dev/style.css"],
       outfile: "dist/style.min.css"
     });
-
+    await esbuild.build({
+      ...commonOptions,
+      minify: true,
+      entryPoints: ["dev/style-manage.css"],
+      outfile: "dist/style-manage.min.css"
+    });
     console.log("Build complete. Copyright banners injected.");
 
   } catch (err) {

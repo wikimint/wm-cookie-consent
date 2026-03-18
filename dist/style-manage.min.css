@@ -1,0 +1,7 @@
+/**
+ * @license
+ * Wikimint Proprietary Library
+ * Copyright (c) 2026 Wikimint. All Rights Reserved.
+ * Unauthorized copying, distribution, or reverse engineering is strictly prohibited.
+ */
+#wm_c_manage{font-size:28px;padding:0 3px 4px 1px!important;position:fixed;z-index:99999999!important;background:#fff;box-shadow:0 0 6px #999;cursor:pointer;border-radius:100%;width:35px;height:35px;bottom:12px;left:12px;color:#555;display:flex;align-items:center;text-align:center}#wm_c_manage svg{width:30px!important;height:30px!important;margin:auto}*[data-position^=bottom] #wm_c_manage{bottom:-23px!important;transition:bottom .3s ease;border-radius:3px 3px 0 0}*[data-position^=top] #wm_c_manage{top:-23px!important;transition:top .3s ease;border-radius:0 0 3px 3px}*[data-position^=bottom] #wm_c_manage:hover{bottom:0!important}*[data-position^=top] #wm_c_manage:hover{top:0!important}
