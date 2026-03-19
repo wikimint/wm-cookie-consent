@@ -3,6 +3,10 @@ src/
 src
 dev/
 dev
+dev_tools/
+dev_tools
+dev_restored
+dev_restored/
 # generated types
 .astro/
 

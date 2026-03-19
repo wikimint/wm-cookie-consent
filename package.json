@@ -8,8 +8,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "node esbuild.config.js",
-    "dev": "node esbuild.config.js",
+    "build": "node dev_tools/esbuild.config.js && node dev_tools/test.js",
+    "dev": "node dev_tools/esbuild.config.js",
     "test": "echo \"No tests yet\""
   },
   "repository": {
