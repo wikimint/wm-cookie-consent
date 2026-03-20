@@ -47,35 +47,35 @@
     width:auto ! important;
 }
 #wm_c[data-theme="light"] button{
-    background:#f0f0f0;
+    background:#ffffff;
     color:#333;
     border:1px solid #333;
 }
 #wm_c[data-theme="dark"] button{
     background:transparent;
-    color:#f0f0f0 ! important;
-    border:1px solid #f0f0f0;
+    color:#ffffff ! important;
+    border:1px solid #ffffff;
 }
 #wm_c[data-theme="light"] #wm_accept-cookies{
     background:#333;
-    color:#f0f0f0 ! important;
+    color:#ffffff ! important;
     border:1px solid #333;
 }
 #wm_c[data-theme="dark"] #wm_accept-cookies{
-    background:#f0f0f0;
+    background:#ffffff;
     color:#333 ! important;
-    border:1px solid #f0f0f0;
+    border:1px solid #ffffff;
 }
 
 #wm_c[data-theme="light"] #wm_c_consent,
 #wm_c[data-theme="light"] #wm_c_consent a{
-    background:#f0f0f0;
+    background:#ffffff;
     color:#333 ! important;
 }
 #wm_c[data-theme="dark"] #wm_c_consent,
 #wm_c[data-theme="dark"] #wm_c_consent a{
     background:#333;
-    color:#f0f0f0 ! important;
+    color:#ffffff ! important;
 }
 #wm_c[data-position="top"] #wm_c_consent,
 #wm_c[data-position="bottom"] #wm_c_consent{
@@ -146,13 +146,13 @@ margin: 0px;
 }
 
 #wm_c_preferences-modal-content {
-    background-color: #fefefe ! important;
+    background-color: #ffffff ! important;
     color: #333 ! important;
     margin: 30px auto;
     padding: 20px;
     border: 1px solid #888;
     width: calc(100% - 80px);
-    max-width: 600px;
+    max-width: 500px;
     max-height: calc(100vh - 60px);
 }
 #wm_c_preferences-modal-body{
